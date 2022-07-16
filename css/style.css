@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+
+  }
+
+
+
+.header {
+    height: 500px;
+
+    background-image:linear-gradient(rgba(0 , 0, 0, 0.7),rgba(0 , 0, 0, 0.7)),url('../images/bgimg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header .headertop {
+    position: sticky;
+    top: 0px;
+    z-index:10 ;
+}
+
+.header h1 {
+position: absolute;
+top: 30px;
+left: 50px;
+float: left;
+font-size: 24px;
+font-family: ;
+}
+
+.header h1 a {
+    text-decoration: none;
+}
+
+.header h1 a:hover {
+    color:purple;
+    transition: 1s;
+    background-color: white;
+    padding: 5px;
+    font-size: 23px;
+    border-radius: 20px;
+    
+}
+
+.header .nav {
+    float: right;
+
+    margin-top: 5vh;
+    margin-right: 7vw;
+ 
+}
+.header .nav ul {
+    display: flex;
+}
+
+.header .nav ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.header .nav ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.header .nav ul li a:hover {
+    color:purple;
+    transition: 1s;
+    background-color: white;
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 20px;
+}
+
+.header .headermain {
+
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+position: relative;
+top: 20vh;
+left: 21vw;
+height: 300px;
+width: 700px;
+}
+
+.header .headermain h2 {
+    font-size: 30px;
+}
+
+.header .headermain p {
+    text-align: center;
+}
+
+.header .headermain button {
+padding: 11px;
+font-size: 15px;
+background-color: transparent;
+border-radius: 29px;
+border: 1px solid pink;
+width: 115px;
+}
+.header .headermain button a {
+    text-decoration: none;
+}
+
+
+
+
+.header .headermain button:hover {
+
+    background-color: purple;
+    color: white;
+transition: 1s;
+}
+
+.main {
+height: 750px;
+
+display: flex;
+justify-content: center;
+/* align-items: center; */
+flex-direction: column;
+
+}
+
+.main .firstrow {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 370px;
+    background-color: black;
+}
+
+.main .firstrow div {
+    height: 339px;
+    width: 257px;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 17px;
+
+}
+
+.main .firstrow div img {
+    width: 162px;
+    border-radius: 81px;
+}
+
+.main .firstrow div img:hover {
+    background-color: aquamarine;
+    transition: 1s;
+
+}
+
+.main .firstrow div h1 {
+    color: black;
+
+}
+
+
+.main .firstrow div h1:hover {
+    color: purple;
+    transition: 1s;
+}
+.main .firstrow div p {
+    color: blue;
+}
+
+.main .firstrow div button {
+    padding: 13px;
+    font-size: 17px;
+    border-radius: 24px;
+    border: 1px solid purple;
+    background-color: purple;
+
+}
+
+
+
+.main .firstrow div button a {
+    text-decoration: none;
+}
+
+.main .firstrow div button:hover {
+    color: purple;
+    background-color: white;
+    border: 1px solid purple;
+    transition: 1s;
+}
+
+.main .firstrow div button a:hover {
+    color: purple;
+    transition: 1s;
+}
+
+.main .secondrow {
+
+    height: 370px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+.main .secondrow div {
+    height: 339px;
+    width: 257px;
+    border: 1px solid blue;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    
+  
+}
+
+
+.main .secondrow div img {
+    width: 162px;
+    border-radius: 81px;
+}
+
+
+.main .secondrow div img:hover {
+    background-color: aquamarine;
+    transition: 1s;
+
+}
+
+
+
+.main .secondrow div h1 {
+    color: black;
+
+}
+
+.main .secondrow div h1:hover {
+    color: purple;
+    transition: 1s;
+}
+
+.main .secondrow div p {
+    color: blue;
+}
+
+
+.main .secondrow div button {
+    padding: 13px;
+    font-size: 17px;
+    border-radius: 24px;
+    border: 1px solid purple;
+    background-color: purple;
+   
+}
+
+.main .secondrow div button a {
+    text-decoration: none;
+}
+
+
+
+.main .secondrow div button:hover {
+    color: purple;
+    background-color: white;
+    border: 1px solid purple;
+    transition: 1s;
+}
+
+.main .secondrow div button a:hover {
+    color: purple;
+    transition: 1s;
+}
+
+
+
+
+.footer {
+    background-image: linear-gradient(rgba(0 , 0, 0, 0.6),rgba(0 , 0, 0, 0.6)),url('../images/bgfooter.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer .logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer .logos img {
+    margin-left: 5px;
+}
+.footer h1 {
+    margin: 10px;
+    font-size: 17px;
+}

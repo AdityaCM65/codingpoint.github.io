@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.header {
+    height: 500px;
+
+    background-image:linear-gradient(rgba(0 , 0, 0, 0.7),rgba(0 , 0, 0, 0.7)),url('../images/bgimg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header .headertop {
+    position: sticky;
+    top: 0px;
+    z-index:10 ;
+}
+
+.header h1 {
+position: absolute;
+top: 30px;
+left: 50px;
+float: left;
+font-size: 24px;
+font-family: ;
+}
+
+.header h1 a {
+    text-decoration: none;
+}
+
+.header .nav {
+    float: right;
+
+    margin-top: 5vh;
+    margin-right: 7vw;
+ 
+}
+.header .nav ul {
+    display: flex;
+}
+
+.header .nav ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.header .nav ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    
+    height: 450px;
+    width: 1000px;
+    margin-top: 8vh;
+    margin-left: 130px;
+    text-align: center;
+    
+}
+
+.container h1 {
+    font-size: 20;
+    color: white;
+}
+
+.container input {
+    padding: 10px;
+    background-color: black;
+    border: 1px solid black;
+    width: 300px;
+    height: 30px;
+    color: white;
+}
+
+.container input:hover {
+    border: 1px solid blue;
+    box-shadow: 3px 3px 10px yellow;
+    transition: 1s;
+}
+
+.container textarea {
+    padding: 12px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+
+.container textarea:hover {
+    border: 1px solid blue;
+    box-shadow: 3px 3px 10px yellow;
+transition: 1s;
+}
+
+.container #sendbtn {
+    width: 70px;
+    padding: 6px;
+    border-radius: 15px;
+    border: 1px solid red;
+    background-color: rgb(177, 51, 129);
+    color: white;
+}
+
+.container #sendbtn a {
+    text-decoration: none;
+}
+
+.container #sendbtn:hover {
+    transition: 1s;
+    background-color: #fff;
+    color: red;
+    border: 1px solid red;
+}
+
+
+.footer {
+    background-image: linear-gradient(rgba(0 , 0, 0, 0.6),rgba(0 , 0, 0, 0.6)),url('../images/bgfooter.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer .logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer .logos img {
+    margin-left: 5px;
+}
+.footer h1 {
+    margin: 10px;
+    font-size: 17px;
+}
